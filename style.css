@@ -9,11 +9,12 @@ html { overflow-x: hidden; }
   position: absolute;
   top: 0;
   left: 0;
+  white-space: nowrap;
 
-  width: 100%;
-  padding: 25px 0;
+  height: 60px;
+  padding: 20px 0px 20px 0px;
 
-  background-color: #e74c3c;
+  background-color: #226699;
   color: white;
 
   font-family: Gelasio;
@@ -21,13 +22,14 @@ html { overflow-x: hidden; }
 }
 
 .bar_content {
-  display: block; /* Important to give the content a width */
+  display: block;
+  white-space: nowrap;
 
-  width: 100%;
-  transform: translateX(100%); /* Animation start out of the screen */
+  height: 60px;
+  transform: translateX(3400px); /* Animation start out of the screen */
 
   /* Add the animation */
-  animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+  animation: move 800s linear infinite /* infinite make reapeat the animation indefinitely */;
 }
 
 /* Create the animation */
