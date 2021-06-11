@@ -15,10 +15,10 @@ overflow-y: hidden;
   left: 0;
   white-space: nowrap;
 
-  height: 60px;
-  padding: 20px 0px 20px 0px;
+  height: 50px;
+  padding: 17px 0px 17px 0px;
 
-  background-color: #226699;
+  background-color: #224499;
   color: white;
 
   font-family: Gelasio;
@@ -29,11 +29,11 @@ overflow-y: hidden;
   display: block;
   white-space: nowrap;
 
-  height: 60px;
-  transform: translateX(3400px); /* Animation start out of the screen */
+  height: 50px;
+  transform: translateX(1950px); /* Animation start out of the screen */
 
   /* Add the animation */
-  animation: move 1600s linear infinite /* infinite make reapeat the animation indefinitely */;
+  animation: move 800s linear infinite /* infinite make reapeat the animation indefinitely */;
 }
 
 /* Create the animation */
