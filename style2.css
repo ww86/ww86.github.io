@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
 
-* { box-sizing: border-box; }
 
-body,
-html { 
-overflow-x: hidden;
-overflow-y: hidden;
+
+
+body,html { 
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	line-height: 1.75;
+	color: #222;
+	margin: 0;
  }
 
 .timezone {
@@ -75,34 +78,3 @@ overflow-y: hidden;
   font-size: 12px;
 }
 
-.bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  white-space: nowrap;
-
-  height: 50px;
-  padding: 17px 0px 17px 0px;
-
-  background-color: #443399;
-  color: white;
-
-  font-family: Gelasio;
-  font-size: 18px;
-}
-
-.bar_content {
-  display: block;
-  white-space: nowrap;
-
-  height: 50px;
-  transform: translateX(1950px); /* Animation start out of the screen */
-
-  /* Add the animation */
-  animation: move 800s linear infinite /* infinite make reapeat the animation indefinitely */;
-}
-
-/* Create the animation */
-@keyframes move {
-  to { transform: translateX(-100%); }
-}
