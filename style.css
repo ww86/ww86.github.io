@@ -33,10 +33,10 @@ overflow-y: hidden;
   transform: translateX(500px); /* Animation start out of the screen */
 
   /* Add the animation */
-  animation: move 20s linear infinite /* infinite make reapeat the animation indefinitely */;
+  animation: move 40s linear infinite /* infinite make reapeat the animation indefinitely */;
 }
 
 /* Create the animation */
 @keyframes move {
-  to { transform: translateX(-800px); }
+  to { transform: translateX(-1000px); }
 }
